@@ -9,11 +9,10 @@ git config --global transfer.fsckobjects true
 # iterm
 cp files/com.googlecode.iterm2.plist ~/Library/Preferences
 
-# shiftit
+# startup apps
 ./bin/loginitems-add "ShiftIt" "/Applications/ShiftIt.app" "false" >> /dev/null
-
-# flycut
 ./bin/loginitems-add "Flycut" "/Applications/Flycut.app" "false" >> /dev/null
+./bin/loginitems-add "Docker" "/Applications/Docker.app" "false" >> /dev/null
 
 # vim
 pushd ~/ > /dev/null

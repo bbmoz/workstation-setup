@@ -23,6 +23,7 @@ rbenv rehash
 # node
 brew install nvm
 cp files/nvm.bash ~/.bash_it/custom/nvm.bash
-source files/nvm.bash && nvm install --lts
+source files/nvm.bash
+nvm install 6.11.0
 
 set -e
