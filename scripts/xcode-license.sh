@@ -1,4 +1,5 @@
-echo
-echo "Accepting the XCode Software License Agreement"
-echo
+echo "---------------------------------"
+echo " >> accepting xcode license <<"
+echo "---------------------------------"
+
 sudo xcodebuild -license accept
