@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> installing apps <<"
+echo " >> 5. installing apps <<"
 echo "---------------------------------"
 
 set +e
@@ -37,7 +37,6 @@ cp files/direnv.bash ~/.bash_it/custom/direnv.bash
 # git
 brew install git
 brew cask install github-desktop
-brew cask install sourcetree
 
 # git pairing
 brew tap git-duet/tap

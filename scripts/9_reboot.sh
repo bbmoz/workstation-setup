@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> done! please reboot! <<"
+echo " >> 9. rebooting <<"
 echo "---------------------------------"
 
 echo "if hostname needs to be set,"

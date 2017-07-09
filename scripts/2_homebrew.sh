@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> installing homebrew <<"
+echo " >> 2. setting up homebrew <<"
 echo "---------------------------------"
 
 if ! hash brew 2>/dev/null; then

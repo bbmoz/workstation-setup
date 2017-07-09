@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> setting app configs <<"
+echo " >> 6. configuring apps <<"
 echo "---------------------------------"
 
 # git

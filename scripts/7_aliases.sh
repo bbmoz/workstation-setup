@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> setting aliases <<"
+echo " >> 7. setting aliases <<"
 echo "---------------------------------"
 
 # git alias
