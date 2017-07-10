@@ -36,5 +36,5 @@ Compared to the pivotal workstation setup, this aims to be a cleaner, faster, an
 1. Avoids manual user input during setup.
 1. Provides cleaner output and progress updates.
 1. Modifies scripts to be more readable and customizable.
-1. Prevents preference over ruby and gives more love to nodejs.
+1. Attempts to minimize pivotal preferences, such as iterm and git pair settings.
 1. Prompts for a machine restart at the end of the setup.
