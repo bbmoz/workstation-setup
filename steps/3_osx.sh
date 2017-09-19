@@ -18,3 +18,10 @@ defaults write com.apple.finder '_FXShowPosixPathInTitle' -bool true
 
 # stop photos from opening automatically
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
+# remove standard dock icons, add chrome and iterm
+curl https://raw.githubusercontent.com/kcrawford/dockutil/master/scripts/dockutil > /usr/local/bin/dockutil
+chmod a+rx,go-w /usr/local/bin/dockutil
+dockutil --list | awk -F\t '{print "dockutil --remove \""$1"\" --no-restart"}' | sh
+dockutil --add /Applications/Google\ Chrome.app --no-restart
+dockutil --add /Applications/iTerm.app

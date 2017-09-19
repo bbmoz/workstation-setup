@@ -14,7 +14,7 @@
 
 ## Get Started
 
-1. Make sure you are running the latest version of macOS.
+1. Make sure you are running the latest version of macOS (currently Sierra).
 1. Install the latest version of Xcode.
 1. Clone the repository.
     ```bash

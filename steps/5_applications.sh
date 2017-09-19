@@ -4,6 +4,8 @@ echo "---------------------------------"
 
 set +e
 
+brew tap caskroom/cask
+
 # utility
 brew cask install flycut
 brew cask install shiftit
@@ -19,6 +21,7 @@ brew cask install google-chrome
 # productivity
 brew cask install slack
 brew cask install screenhero
+brew cask install zoomus
 
 # editor
 brew cask install macvim
@@ -36,7 +39,6 @@ cp files/direnv.bash ~/.bash_it/custom/direnv.bash
 
 # git
 brew install git
-brew cask install github-desktop
 
 # git pairing
 brew tap git-duet/tap
