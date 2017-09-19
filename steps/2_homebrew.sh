@@ -9,7 +9,6 @@ fi
 brew update
 sudo chown -R $(whoami) /usr/local/bin
 brew tap homebrew/services
-brew tap pivotal/tap
 brew upgrade
 brew cleanup
 echo 'export PATH="/usr/local/sbin:$PATH"' >> ~/.bash_profile

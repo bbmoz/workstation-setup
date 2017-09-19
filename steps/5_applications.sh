@@ -41,7 +41,6 @@ brew cask install github-desktop
 # git pairing
 brew tap git-duet/tap
 brew install git-duet
-brew install git-pair
-cp files/.pairs ~/.pairs
+cp files/.pairs ~/.git-authors
 
 set -e

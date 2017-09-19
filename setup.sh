@@ -12,13 +12,13 @@ sudo true
 clear
 
 pushd "$(dirname "$0")" > /dev/null
-  source scripts/1_xcode-license.sh
-  source scripts/2_homebrew.sh
-  source scripts/3_osx.sh
-  source scripts/4_bash.sh
-  source scripts/5_applications.sh
-  source scripts/6_applications-config.sh
-  source scripts/7_aliases.sh
-  source scripts/8_languages.sh
-  source scripts/9_reboot.sh
+  source steps/1_xcode-license.sh
+  source steps/2_homebrew.sh
+  source steps/3_osx.sh
+  source steps/4_bash.sh
+  source steps/5_applications.sh
+  source steps/6_applications-config.sh
+  source steps/7_aliases.sh
+  source steps/8_languages.sh
+  source steps/9_reboot.sh
 popd > /dev/null

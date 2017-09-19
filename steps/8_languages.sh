@@ -24,6 +24,6 @@ rbenv rehash
 brew install nvm
 cp files/nvm.bash ~/.bash_it/custom/nvm.bash
 source files/nvm.bash
-nvm install 6.11.0
+nvm install 6.11.3
 
 set -e
