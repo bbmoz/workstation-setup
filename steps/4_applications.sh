@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> 5. installing apps <<"
+echo " >> 4. installing apps <<"
 echo "---------------------------------"
 
 set +e

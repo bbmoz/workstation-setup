@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> 8. installing languages <<"
+echo " >> 7. installing languages <<"
 echo "---------------------------------"
 
 set +e

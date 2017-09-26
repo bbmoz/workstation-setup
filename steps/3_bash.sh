@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> 4. configuring bash <<"
+echo " >> 3. configuring bash <<"
 echo "---------------------------------"
 
 brew install grc

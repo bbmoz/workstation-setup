@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> 6. configuring apps <<"
+echo " >> 5. configuring apps <<"
 echo "---------------------------------"
 
 # git
@@ -31,4 +31,6 @@ pushd ~/workspace > /dev/null
   pushd pivotal_ide_prefs/cli/ > /dev/null
     ./bin/ide_prefs install --ide=intellij
   popd > /dev/null
+
+  rm -rf pivotal_ide_prefs/
 popd > /dev/null

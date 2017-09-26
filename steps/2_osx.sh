@@ -1,5 +1,5 @@
 echo "---------------------------------"
-echo " >> 3. customizing osx <<"
+echo " >> 2. customizing osx <<"
 echo "---------------------------------"
 
 defaults write com.apple.menuextra.clock "DateFormat" 'EEE MMM d  h:mm:ss a'
